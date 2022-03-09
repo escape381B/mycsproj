@@ -1,5 +1,7 @@
 using System;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("myapp.test")]
 namespace myapp.lib
 {
    internal class calculator
