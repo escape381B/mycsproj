@@ -12,4 +12,11 @@ public class calculatorTest
         var result = c.Add(1,2);
         Assert.Equal(3, result);
     }
+    [Fact]
+    public void Add_Normal2()
+    {
+        var c = new calculator();
+        var result = c.Add(1,2);
+        Assert.Equal(3, result);
+    }
 }
