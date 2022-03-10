@@ -24,5 +24,5 @@ public class calculatorTest
     {
         var c = new calculator();
         var result = c.Add(1,2);
-        Assert.Equal(3, result);
+        Assert.Equal(4, result);
     }}
