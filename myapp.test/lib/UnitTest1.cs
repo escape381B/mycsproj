@@ -19,4 +19,10 @@ public class calculatorTest
         var result = c.Add(1,2);
         Assert.Equal(3, result);
     }
-}
+   [Fact]
+    public void Add_わざと間違える()
+    {
+        var c = new calculator();
+        var result = c.Add(1,2);
+        Assert.Equal(4, result);
+    }}
