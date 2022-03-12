@@ -22,6 +22,7 @@ public class calculatorTest
    [Fact]
     public void Add_わざと間違える()
     {
+        // コミットテスト
         var c = new calculator();
         var result = c.Add(1,2);
         Assert.Equal(3, result);
